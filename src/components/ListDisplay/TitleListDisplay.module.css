@@ -1,0 +1,52 @@
+.listWrapper
+{
+    position: absolute;
+    inset: 0 auto auto 0;
+    transform: translate(560px, 75px);
+    border-radius: 5px;
+    font-size: medium;
+    width: 12rem;
+    height: 2.5rem;
+    z-index: 10;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.showlist-div
+{
+    font-size: medium;
+    width: 12rem;
+    height: 2rem;
+    z-index: 15;
+    top: 0.25rem;
+    display: block;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.showlist-div:hover
+{
+    background-color: #e6e6e6 ;
+}
+
+
+.spanText
+{
+    vertical-align: middle;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666
+}
+.garbage
+{
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 0.85rem;
+    height: 0.85rem;
+    fill: #666;
+}

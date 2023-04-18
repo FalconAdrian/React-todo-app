@@ -1,0 +1,71 @@
+.calendarWrapper
+{
+    position: relative;
+    display: inline;
+}
+
+.calendar
+{
+    fill: #9c9ca7;
+    vertical-align: middle;
+    width: 1.05rem;
+    height: 1.05rem;
+    cursor:pointer;
+    stroke: #9c9ca7;
+    stroke-width: 2px;
+}
+
+
+.calendar:hover
+{
+    fill: black;
+    stroke: black
+}
+
+.calendarData
+{
+    margin-right: 0.5rem;
+}
+
+.calendarData,
+.calendarData p
+{
+    display: flex;
+    vertical-align:super;
+}
+
+.missedDate
+{
+    color: #fa3e3e;
+}
+
+.date
+{
+    color: #9c9ca7;
+    display: flex;
+    width: 100%;
+}
+
+.dateList
+{
+    display: inline;
+}
+
+.button
+{
+    border: none;
+    background-color: white;
+}
+
+.button:hover
+{
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.buttonHover
+{
+    border: none;
+    background-color: #f0f0f0;
+}
+

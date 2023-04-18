@@ -1,0 +1,54 @@
+.main-wrapper
+{
+    margin: 0;
+    text-align: center;
+    width: 100vw;
+}
+
+.iconWrapper
+{
+    text-align: start;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 10rem;
+}
+
+.textWrapper
+{
+    margin: 0;
+    padding-inline: 3rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.main-title
+{
+    margin: 0;
+    color: #242527;
+}
+
+.subtitle
+{
+    color: #242527;
+    font-weight: 400;
+    font-size: x-large;
+    padding-bottom: 1rem;
+}
+
+.button
+{
+    color: white;
+    background-color: #3649DF;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin-inline: 0.125rem;
+}
+
+.button:hover
+{
+    cursor:pointer;
+}

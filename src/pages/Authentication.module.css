@@ -1,0 +1,64 @@
+*
+{
+    box-sizing:border-box;   
+}
+
+.formWrapper
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #3649DF;
+
+}
+
+.formLog
+{
+    width: 40vw;
+    height: 60vh;
+    margin: 5% auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.formSign
+{
+    width: 40vw;
+    height: 70vh;
+    margin: 5% auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.h1
+{
+    display: block;
+    width: 80%;
+    margin: 5% auto;
+    padding-top: 5%;
+}
+
+.button
+{
+    display: block;
+    margin: 5% auto ;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 7vh;
+    background-color: #3649DF;
+    color: white;
+}
+
+.link
+{
+    display: block;
+    margin: 5% auto ;
+    width: 80%;
+    text-decoration: none;
+}
+
+.linkText
+{
+    color: #3649DF;
+    text-align: center;
+}

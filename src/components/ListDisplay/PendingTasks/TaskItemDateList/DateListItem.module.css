@@ -1,0 +1,56 @@
+.item
+{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: small;
+}
+
+.item:hover
+{
+    background-color: #eee;
+}
+
+
+
+.dateInfo
+{
+    color: #555;
+}
+
+.text
+{
+    vertical-align: middle;
+}
+
+.clock,
+.sunrise,
+.forward,
+.prohibited
+{
+    vertical-align: middle;
+    padding-right: 0.5rem;
+    width: 1.5rem;
+    height: 1rem;
+}
+
+.clock,
+.sunrise
+{
+    fill: none;
+    stroke: #555;
+    stroke-width: 2px;
+}
+
+.forward,
+.prohibited
+{
+    fill: #555;
+}
+
+.prohibited
+{
+    stroke: #555;
+}

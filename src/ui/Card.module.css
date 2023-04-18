@@ -1,0 +1,12 @@
+.card
+{
+    position: fixed;
+    color: white;
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 40%;
+    min-height: 35%;
+    background: #353333;
+    border-radius: 1rem;
+    z-index: 50;
+}

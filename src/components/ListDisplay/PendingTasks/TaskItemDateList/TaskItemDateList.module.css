@@ -1,0 +1,19 @@
+.mainWrapper
+{
+    position:absolute;
+    display: block;
+    background-color: white;
+    border-radius: 0.25rem;
+    width: 15rem;
+    height: 9.5rem;
+    top: 1.5rem;
+    right: -5rem;
+    z-index: 25;
+    box-shadow: 0px 3px 7px 1px rgba(0,0,0,0.15) ;
+}
+
+.list
+{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}

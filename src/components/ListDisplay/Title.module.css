@@ -1,0 +1,67 @@
+.wrapper
+{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.text
+{
+    display:block;
+    flex: 1 0 auto;
+}
+
+.icons
+{
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    display: inline-block;
+    text-align: center;
+    line-height: 2rem;
+    color: white;
+    background-color: rgba(200, 75, 75, 1);
+    font-size: 17px;    
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3rem;
+}
+
+.addUser
+{
+    width: 1.125rem;
+    height: 1.25rem;
+    fill: #76738f;
+    stroke: #76738f;
+    stroke-width: 5px;
+    margin-left: 1rem;
+}
+
+.button
+{
+    border: none;
+    background-color: white;
+}
+
+.vertical-dots
+{
+    margin-left: 1.25rem;
+    width: 1.125rem;
+    height: 1.125rem;
+    fill: #76738f;
+}
+
+.photo
+{
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.25rem;
+    background-size: cover;
+    background-position: center;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2.5rem;
+    border-radius: 3rem;   
+}

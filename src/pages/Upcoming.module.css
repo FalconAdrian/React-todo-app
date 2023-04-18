@@ -1,0 +1,8 @@
+.upcoming
+{
+    display: inline-block;
+    position:relative;
+    box-sizing:border-box;
+    width: calc(100vw - 18rem - 10rem);
+    margin-right: 10rem;
+}

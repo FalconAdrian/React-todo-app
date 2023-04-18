@@ -1,0 +1,45 @@
+a .item:hover
+{
+    background-color: #e6e6e6;
+}
+
+.active .item 
+{
+    background-color: #e6e6e6;
+}
+
+a:active .item 
+{
+    background-color: white;
+}
+
+
+.inbox,
+.calendar
+{
+    margin-right: 0.5rem;
+}
+
+.inbox
+{
+    width: 0.85rem;
+    height: 0.7rem;
+    stroke: #76738f; 
+    stroke-width: 2.5px;
+}
+
+.calendar
+{
+    width: 0.75rem;
+    height: 0.8rem;
+    stroke: #76738f;
+    stroke-width: 2.5px;
+}
+
+.text
+{
+    font-weight: 450;
+    display: inline-block;
+    margin-top: -0.5rem;
+}
+

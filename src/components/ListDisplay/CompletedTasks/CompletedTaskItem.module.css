@@ -1,0 +1,88 @@
+.wrapper
+{
+    display: flex;
+    align-items: center;
+    margin-left: -1rem;
+    height: 2rem;
+
+}
+
+.wrapper:hover
+{
+    background-color: #eee;
+    border-radius: 0.25rem;
+}
+
+.wrapper:hover
+.input
+{
+    background-color: #f0f0f0;
+}
+
+
+.wrapper:hover .garbage
+{
+    fill: #9c9ca7;
+}
+
+.wrapper:hover 
+.garbage:hover
+{
+    fill: black;
+}
+
+.tick
+{
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: 1rem;
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: rgba(70, 70, 255, 1) ;
+}
+
+.text
+{
+    display: inline-block ;
+    vertical-align:center;
+    margin-left: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    width: 85%;
+}
+
+.input
+{
+    max-width: 85%;
+    flex: 1 1 0%;
+    vertical-align:middle;
+    text-decoration: line-through;
+    color: #7a7a81;
+    margin-right: 15% ;
+    margin-left: 0.38rem;
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+
+.input:hover
+{
+    background-color: #f0f0f0;
+}
+
+.input:focus
+{
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.garbage
+{
+    fill: white;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}

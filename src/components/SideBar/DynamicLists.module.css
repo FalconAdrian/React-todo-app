@@ -1,0 +1,28 @@
+.item:hover
+{
+    background-color: #e6e6e6;
+}
+
+.line
+{
+    margin-right: 0.5rem;
+}
+
+.line
+{
+    width: 0.85rem;
+    height: 0.6rem;
+    fill: #76738f;
+}
+
+.text
+{
+    font-weight: 450;
+    display: inline-block;
+    margin-top: -0.5rem;
+}
+
+.active
+{
+    background-color: red;
+}

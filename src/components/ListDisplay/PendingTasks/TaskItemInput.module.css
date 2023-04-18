@@ -1,0 +1,47 @@
+.input
+{
+    max-width: 85%;
+    flex: 1 1 0%;
+    vertical-align: middle;
+    margin-right: 15% ;
+    margin-left: 0.38rem;
+    background-color: white;
+    border: none;
+    font-size: medium;
+}
+
+.input:hover
+{
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.input:focus
+{
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.inputHover 
+{
+    max-width: 85%;
+    flex: 1 1 0%;
+    vertical-align: middle;
+    margin-right: 15% ;
+    margin-left: 0.38rem;
+    background-color: #f0f0f0;
+    border: none;
+    font-size: medium;
+}
+
+.inputHover:hover
+{
+    border: none;
+    outline: none;
+}
+
+.inputHover:focus
+{
+    outline: none;
+}

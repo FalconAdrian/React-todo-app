@@ -1,0 +1,36 @@
+.mainWrapper 
+{
+    border-top: solid #ccc 1px;
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    color: #777;
+}
+
+.completed  
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+.completed:hover
+{
+    cursor: pointer;
+}
+
+.arrowWrapper
+{
+    display: inline-block;
+}
+
+.arrow
+{
+    width: 15px;
+    height: 15px;
+    stroke: #777;
+/*  transform: rotate(90deg);*/
+}
+
+.up
+{
+    transform: rotate(180deg);
+}

@@ -1,0 +1,65 @@
+ul
+{
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px #b8b7bd solid;
+}
+
+.list li:last-child
+{
+    margin-bottom: 0.5rem;
+}
+
+.list li,
+.add 
+{
+    cursor: pointer;
+    list-style: none;
+    color: #5c5a74;
+    font-weight: 500;
+    font-size:11pt;
+    padding: 0.5rem;
+    margin-bottom: 0.25rem;
+    text-align: left;
+    border-radius: 0.25rem;
+}
+
+/*
+.image{
+    display: inline-block;
+    vertical-align: center;
+    width: 0.75rem;
+    height: 0.5rem;
+    margin-right: 1rem;
+    background-image: url("../../assets/imgs/lines.png");
+    background-size: 0.75rem 0.5rem;
+}
+*/
+
+.add
+{
+    display: flex;
+    margin-top: 0.5rem;
+    align-items:flex-end;
+}
+
+.circle
+{
+    vertical-align:middle;
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    stroke: #76738f;
+    stroke-width: 0;
+}
+
+.add span
+{
+    vertical-align:middle;
+}
+
+.add:hover
+{
+    background-color: #e6e6e6;
+}

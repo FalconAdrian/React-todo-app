@@ -1,0 +1,66 @@
+.crossWrapper
+{
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.cross
+{
+    display: block;
+    fill: #aaaaaa;
+    width: 1.15rem;
+    height: 1.15rem;
+    position: relative;
+    margin: 0;
+}
+
+.form label
+{
+    display: block;
+    color: black;
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.form input
+{
+    box-sizing: border-box;
+    margin-top: 2rem;
+    padding: 0 0.75rem;
+    display: block;
+    border: 1px #cccbd4 solid;
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.buttons
+{
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.cancel-button,
+.create-button
+{
+    cursor: pointer;
+    border-radius: 0.25rem;
+    height: 2rem;
+    padding: 0 1rem;
+    font-weight: 700;
+}
+
+.cancel-button
+{
+    margin-right: 0.5rem;
+    border: 1px #b5b4bd solid;
+    background-color: white;
+    color: #555;
+}
+
+.create-button
+{
+    border: none;
+    background-color:#3649df;
+    color: white;
+}
